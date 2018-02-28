@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3353E6204610450022F15C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3353E5204610450022F15C /* AuthService.swift */; };
 		1D3B4E35203CE11000AA8404 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3B4E34203CE11000AA8404 /* LoginVC.swift */; };
+		1D3B4E37203CE59900AA8404 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3B4E36203CE59900AA8404 /* CreateAccountVC.swift */; };
 		1D407FD5202E52EA00C983D3 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D407FD4202E52EA00C983D3 /* Constance.swift */; };
 		1DA5D150202A249500137E1E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5D14F202A249500137E1E /* SWRevealViewController.m */; };
 		1DA5D15A202BA75100137E1E /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5D159202BA75100137E1E /* ChatVC.swift */; };
@@ -21,7 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D3353E5204610450022F15C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		1D3B4E34203CE11000AA8404 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1D3B4E36203CE59900AA8404 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		1D407FD4202E52EA00C983D3 /* Constance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
 		1DA5D14E202A249500137E1E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		1DA5D14F202A249500137E1E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -52,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D3353E4204610260022F15C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D3353E5204610450022F15C /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		1D3AE2D4202A1FC9002B0E47 /* Supporting Files  */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +88,7 @@
 				1DA5D159202BA75100137E1E /* ChatVC.swift */,
 				1DA5D15B202BA76E00137E1E /* ChannelVC.swift */,
 				1D3B4E34203CE11000AA8404 /* LoginVC.swift */,
+				1D3B4E36203CE59900AA8404 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,6 +110,7 @@
 		1DBA8B051FFDAFB8003F19F4 = {
 			isa = PBXGroup;
 			children = (
+				1D3353E4204610260022F15C /* Services */,
 				1D407FD3202E52CF00C983D3 /* Utilities */,
 				1DD73406202D053500C2EFC6 /* View */,
 				1DBA8B101FFDAFB8003F19F4 /* TalkToMe */,
@@ -281,6 +295,8 @@
 			files = (
 				1DA5D15C202BA76E00137E1E /* ChannelVC.swift in Sources */,
 				1DA5D15A202BA75100137E1E /* ChatVC.swift in Sources */,
+				1D3B4E37203CE59900AA8404 /* CreateAccountVC.swift in Sources */,
+				1D3353E6204610450022F15C /* AuthService.swift in Sources */,
 				1D3B4E35203CE11000AA8404 /* LoginVC.swift in Sources */,
 				1D407FD5202E52EA00C983D3 /* Constance.swift in Sources */,
 				1DD73408202D05B700C2EFC6 /* GradientView.swift in Sources */,
